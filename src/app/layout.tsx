@@ -1,5 +1,4 @@
 export const metadata = { title: "MuseumBuddy UI" };
-
 import "./globals.css";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
