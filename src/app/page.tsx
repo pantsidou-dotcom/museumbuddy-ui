@@ -6,7 +6,7 @@ import {
   PageHeader, SectionHeader, ChipIcon,
   ExpoCard, Fab, ExpoMeta, ExpoTitle, CTA,
   VisitorCard, VisitorTitle, ButtonRow, PrimaryLink, GhostLink, Label, Value, Credit
-} from "@/components/ui";
+} from "../components/ui";
 
 const EXHIBITIONS = [
   { id:"1", title:"Yellow. More than Van Gogh’s Favourite Colour", start:"FEB 13", end:"MAY 17" },
