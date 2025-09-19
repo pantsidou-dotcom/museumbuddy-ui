@@ -1,6 +1,19 @@
 'use client';
 import styled from 'styled-components';
 
+/* ===== Layout ===== */
+export const PageWrapper = styled.main`
+  width: min(100%, 520px);
+  margin: 0 auto;
+  min-height: 100dvh;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+  padding-bottom: 80px;
+`;
+
 /* ===== Topbar ===== */
 export const Topbar = styled.header`
   position: sticky; top: 0; z-index: 10;
